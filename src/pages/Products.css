@@ -1,0 +1,45 @@
+.products-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 60px);
+}
+
+.products-header {
+  margin-bottom: 40px;
+}
+
+.products-header h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.no-products {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 18px;
+  color: #7f8c8d;
+}
