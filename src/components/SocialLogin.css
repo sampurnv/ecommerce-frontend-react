@@ -1,0 +1,95 @@
+.social-login {
+  margin: 30px 0;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.divider span {
+  padding: 0 15px;
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-btn svg {
+  font-size: 20px;
+}
+
+.social-btn.google {
+  border-color: #DB4437;
+  color: #DB4437;
+}
+
+.social-btn.google:hover {
+  background: #DB4437;
+  color: white;
+}
+
+.social-btn.facebook {
+  border-color: #4267B2;
+  color: #4267B2;
+}
+
+.social-btn.facebook:hover {
+  background: #4267B2;
+  color: white;
+}
+
+.social-btn.github {
+  border-color: #333;
+  color: #333;
+}
+
+.social-btn.github:hover {
+  background: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .social-buttons {
+    flex-direction: column;
+  }
+  
+  .social-btn {
+    width: 100%;
+  }
+}
