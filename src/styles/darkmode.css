@@ -1,0 +1,210 @@
+/* Dark Mode Styles */
+
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+/* Navbar Dark Mode */
+.dark-mode .navbar {
+  background-color: #0d1117;
+  box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+}
+
+.dark-mode .nav-logo,
+.dark-mode .nav-link {
+  color: #e0e0e0;
+}
+
+.dark-mode .nav-link:hover {
+  color: #58a6ff;
+}
+
+/* Cards Dark Mode */
+.dark-mode .product-card,
+.dark-mode .cart-items,
+.dark-mode .cart-summary,
+.dark-mode .checkout-form,
+.dark-mode .order-summary,
+.dark-mode .order-card {
+  background-color: #161b22;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.dark-mode .product-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+}
+
+/* Text Dark Mode */
+.dark-mode .product-name,
+.dark-mode .product-price,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4 {
+  color: #e0e0e0;
+}
+
+.dark-mode .product-category,
+.dark-mode .order-date,
+.dark-mode .order-info p,
+.dark-mode .summary-item,
+.dark-mode p {
+  color: #8b949e;
+}
+
+/* Inputs Dark Mode */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #e0e0e0;
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+  border-color: #58a6ff;
+}
+
+.dark-mode .search-input {
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #e0e0e0;
+}
+
+/* Buttons Dark Mode */
+.dark-mode .btn-primary {
+  background-color: #238636;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #2ea043;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #30363d;
+}
+
+.dark-mode .btn-secondary:hover {
+  background-color: #484f58;
+}
+
+/* Hero Section Dark Mode */
+.dark-mode .hero {
+  background: linear-gradient(135deg, #1f6feb 0%, #8957e5 100%);
+}
+
+/* Features Dark Mode */
+.dark-mode .features {
+  background-color: #0d1117;
+}
+
+.dark-mode .feature-card {
+  background-color: #161b22;
+}
+
+.dark-mode .feature-card:hover {
+  background-color: #1c2128;
+}
+
+/* Categories Dark Mode */
+.dark-mode .categories {
+  background-color: #0d1117;
+}
+
+/* Cart Item Dark Mode */
+.dark-mode .cart-item {
+  border-bottom-color: #30363d;
+}
+
+.dark-mode .item-quantity button {
+  background-color: #0d1117;
+  border-color: #30363d;
+  color: #e0e0e0;
+}
+
+.dark-mode .item-quantity button:hover:not(:disabled) {
+  background-color: #161b22;
+}
+
+/* Summary Rows Dark Mode */
+.dark-mode .summary-row {
+  border-bottom-color: #30363d;
+}
+
+/* Payment Options Dark Mode */
+.dark-mode .payment-option {
+  border-color: #30363d;
+  background-color: #0d1117;
+}
+
+.dark-mode .payment-option:hover {
+  border-color: #58a6ff;
+  background-color: #161b22;
+}
+
+/* Order Status Dark Mode */
+.dark-mode .order-header {
+  border-bottom-color: #30363d;
+}
+
+.dark-mode .order-items {
+  border-bottom-color: #30363d;
+}
+
+/* Chat Dark Mode */
+.dark-mode .chat-container {
+  background-color: #161b22;
+  border-color: #30363d;
+}
+
+.dark-mode .chat-header {
+  background-color: #0d1117;
+  border-bottom-color: #30363d;
+}
+
+.dark-mode .chat-messages {
+  background-color: #0d1117;
+}
+
+.dark-mode .message {
+  background-color: #161b22;
+}
+
+.dark-mode .message.own {
+  background-color: #238636;
+}
+
+.dark-mode .chat-input {
+  background-color: #0d1117;
+  border-color: #30363d;
+}
+
+/* Loading & Error Dark Mode */
+.dark-mode .loading,
+.dark-mode .error {
+  color: #8b949e;
+}
+
+/* Product Image Background Dark Mode */
+.dark-mode .product-image {
+  background-color: #0d1117;
+}
+
+/* Settings Panel Dark Mode */
+.dark-mode .settings-panel {
+  background-color: #161b22;
+  border-color: #30363d;
+}
+
+.dark-mode .settings-item {
+  border-bottom-color: #30363d;
+}
+
+/* Toggle Switch Dark Mode */
+.dark-mode .toggle-switch {
+  background-color: #30363d;
+}
+
+.dark-mode .toggle-switch.active {
+  background-color: #238636;
+}
