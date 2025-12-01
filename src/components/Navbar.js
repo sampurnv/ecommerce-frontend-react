@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaShoppingCart, FaBox } from 'react-icons/fa';
+import { FaShoppingCart, FaBox, FaCog } from 'react-icons/fa';
+import { useLanguage } from '../context/LanguageContext';
 import './Navbar.css';
 
 const Navbar = ({ cartCount }) => {
+  const { t } = useLanguage();
+  
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -12,14 +15,19 @@ const Navbar = ({ cartCount }) => {
         </Link>
         <ul className="nav-menu">
           <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/" className="nav-link">{t('home')}</Link>
           </li>
           <li className="nav-item">
-            <Link to="/products" className="nav-link">Products</Link>
+            <Link to="/products" className="nav-link">{t('products')}</Link>
           </li>
           <li className="nav-item">
             <Link to="/orders" className="nav-link">
-              <FaBox /> Orders
+              <FaBox /> {t('orders')}
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/settings" className="nav-link">
+              <FaCog />
             </Link>
           </li>
           <li className="nav-item">
